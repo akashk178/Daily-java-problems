@@ -10,7 +10,7 @@ public class Array1 {
         int arr[] = new int [n];
       
 
-        for(int i =0; i<n-1;i++){
+        for(int i =0; i<=n-1;i++){
               System.out.println("Enter the marks of the student no : " + (i+1));
             arr[i] = sc.nextInt();
         }
