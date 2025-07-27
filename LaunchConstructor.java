@@ -18,6 +18,12 @@ class Tiger {
     public int getAge(){
         return age;
     }
+
+    void getData(){
+        System.out.println(name);
+        System.out.println(color);
+        System.out.println(age);
+    }
     }
 
 public class LaunchConstructor {
